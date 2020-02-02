@@ -1,2 +1,2 @@
 #!/bin/bash
-echo emacs \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) > Holberton School
+echo emacs "\*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)" > Holberton School
