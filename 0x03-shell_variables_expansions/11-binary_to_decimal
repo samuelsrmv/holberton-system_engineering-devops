@@ -1,2 +1,2 @@
 #!/bin/bash
-BINARY-deci.sh
+echo ((2#$BINARY))
