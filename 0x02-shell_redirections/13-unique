@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -n |  unig -u
+sort -n | unig -u
