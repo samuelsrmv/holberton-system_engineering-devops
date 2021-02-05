@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
 index=0
-while ((index < 10))
+while ((index < 8))
 do  
     echo "Holberton School"
     ((index++))
-    if ((index == 4))
+    if ((index == 3))
     then
         echo "bad luck"
-    elif ((index == 8))
+    elif ((index == 6))
     then
         echo "good luck"
     fi
