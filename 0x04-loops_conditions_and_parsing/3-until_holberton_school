@@ -2,7 +2,7 @@
 # This script is displaying "Holberton School" 10 times
 counter=0
 until [ $counter -gt 10 ]
-    do
-        echo "Holberton School"
-        ((counter++))
+do
+    echo "Holberton School"
+    ((counter++))
 done
