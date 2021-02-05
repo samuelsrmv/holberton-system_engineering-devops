@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
 counter=0
-until [ $counter -gt 10 ]
+until [ $counter -ge 10 ]
 do
     echo "Holberton School"
     ((counter++))
