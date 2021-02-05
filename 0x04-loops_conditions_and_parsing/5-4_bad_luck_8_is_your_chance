@@ -8,9 +8,9 @@ do
         echo "bad luck"
     elif ((index == 8))
     then
-        echo "good lock"
+        echo "good luck"
     else
         echo "Holberton School"
     fi
-let index=index+1
+    ((index++))
 done
