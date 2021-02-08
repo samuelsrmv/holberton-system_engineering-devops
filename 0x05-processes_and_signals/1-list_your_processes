@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-#Bash script that displays a list 
-ps aux | less
+#Bash script that displays a list
+ps -u | less
