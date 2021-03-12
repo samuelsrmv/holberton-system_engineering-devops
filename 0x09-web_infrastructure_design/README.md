@@ -136,24 +136,5 @@ Requirements:
  
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
  
-#### Students who are done with "3. Scale up"
- 
-#### 3. Scale up
- 
-Readme
- 
-* [Application server vs web server](https://intranet.hbtn.io/rltoken/XuhRS6VTEMuBHiZU5vo-sQ "Application server vs web server")
- 
-Requirements:
- 
-* You must add:
-  - 1 server
-  - 1 load-balancer (HAproxy) configured as cluster with the other one
-  - Split components (web server, application server, database) with their own server
-* You must be able to explain some specifics about this infrastructure:
-  - For every additional element, why you are adding it
- 
-Please, remember that everything must be written in English to further your technical ability in a variety of settings.
- 
 ### Author:
 * **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
