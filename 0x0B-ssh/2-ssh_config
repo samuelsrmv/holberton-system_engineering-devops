@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#
+Host ubuntu
+    HostName 35.237.217.126
+    IdentityFile ~/.ssh/holberton
+    PubkeyAuthentication no
