@@ -1,7 +1,7 @@
 # kill process
 
 exec { 'killmenow':
-  path    => ['/usr/bin', '/sbin', '/bin', '/usr/sbin'],
-  provider => 'shell'
-  command => "pkill -SIGKILL -f killmenow",
+  path    => '/usr/bin'
+  command => 'pkill -f killmenow',
+  returns => '0',
 }
