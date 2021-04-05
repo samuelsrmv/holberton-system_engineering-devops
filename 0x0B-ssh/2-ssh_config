@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#
+# Client configuration file
 Host ubuntu
     HostName 35.237.217.126
     IdentityFile ~/.ssh/holberton
