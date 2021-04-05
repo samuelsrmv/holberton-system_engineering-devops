@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# private key
+
+ssh-keygen -t rsa -b 4096 -f holberton
