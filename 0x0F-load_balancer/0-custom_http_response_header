@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# configures a brand new Ubuntu machine
+
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo service nginx start
+echo "Holberton School" | sudo tee /var/www/html/index.html
+curl -s -H "X-Served-By: 03-web-01" 35.237.217.126
+curl -s -H "X-Served-By: 03-web-02" 35.229.75.225
