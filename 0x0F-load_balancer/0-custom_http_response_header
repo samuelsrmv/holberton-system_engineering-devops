@@ -9,5 +9,5 @@ echo "Holberton School" | sudo tee /var/www/html/index.html
 
 otherdefault="/etc/nginx/sites-enabled/default"
 location="\\\tadd_header X-Served-By \$hostname;"
-sudo sed -i "30i $location" "$otherdefault"
+sudo sed -i "$location" "$otherdefault"
 sudo service nginx restart
