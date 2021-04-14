@@ -12,4 +12,4 @@ sed -i -e '$ afrontend http_front \n\tbind *:80 \
 \tserver 1594-web-01		35.237.217.126:80 check \
 \tserver 1594-web-02		35.229.75.225:80 check' /etc/haproxy/haproxy.cfg
 
-service restart haproxy
+service start haproxy
