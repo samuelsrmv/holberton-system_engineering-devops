@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #install nginx
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-systemctl start nginx
-systemctl quit nginx
+service start nginx
+service nginx nginx -s quit
