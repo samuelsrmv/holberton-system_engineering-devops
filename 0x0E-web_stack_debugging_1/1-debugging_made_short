@@ -2,4 +2,4 @@
 #install nginx
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 service nginx restart
-kill -s QUIT /etc/init.d/nginx
+kill $(cat /path/to/nginx.pid)
