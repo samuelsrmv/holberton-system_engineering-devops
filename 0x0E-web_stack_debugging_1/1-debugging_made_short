@@ -2,4 +2,4 @@
 #install nginx
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 service nginx restart
-kill $(ps aux | grep '[n]ginx' | awk '{print $2}')
+pkill -1 nginx
