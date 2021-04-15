@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #install nginx
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-nginx -s reload
-nginx -s quit
+service nginx restart
+ps -ax | grep nginx
