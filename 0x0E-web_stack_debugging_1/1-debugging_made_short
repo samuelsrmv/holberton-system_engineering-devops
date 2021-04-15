@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #install nginx
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-sudo systemctl restart nginx
+sudo service restart nginx
