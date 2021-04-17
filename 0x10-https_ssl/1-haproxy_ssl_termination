@@ -37,7 +37,6 @@ defaults
 frontend http_front
 	bind *:80
 	bind *:443 ssl crt /etc/letsencrypt/live/www.martinezv.tech/all.pem
-	mode http
 	default_backend http_rear
 
 backend http_rear
