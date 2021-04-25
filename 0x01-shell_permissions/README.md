@@ -92,4 +92,4 @@ What you should learn from this project:
 ---
 
 ## Author :writing_hand:
-* **Samuel Martinez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
+* **Samuel Martínez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
