@@ -1,13 +1,13 @@
 # 0x05. Processes and signals
 
-## Resources:books:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [Linux PID](https://intranet.hbtn.io/rltoken/FcpEdqz8hau7eEB0Pi8Ong)
 * [Linux process](https://intranet.hbtn.io/rltoken/hX_t2YK0erLPbdTq0-uKwQ)
 * [Linux signal](https://intranet.hbtn.io/rltoken/SojW4zvL8j1yaoa7_NM6rA)
 
 ---
-## Learning Objectives:bulb:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
 * What is a PID
@@ -39,12 +39,12 @@ What you should learn from this project:
 * Write a Bash script that displays To infinity and beyond indefinitely. 
 
 
-### [5. Kill me now](./5-kill_me_now)
-* We killed our 4-to_infinity_and_beyond process using ctrl+c in the previous task, there is actually another way to do this.
+### [5. Don't stop me now!](./5-dont_stop_me_now)
+* We stopped our 4-to_infinity_and_beyond process using ctrl+c in the previous task, there is actually another way to do this.
 
 
-### [6. Kill me now made easy](./6-kill_me_now_made_easy)
-* Write a Bash script that kills 4-to_infinity_and_beyond process.
+### [6. Stop me if you can](./6-stop_me_if_you_can)
+* Write a Bash script that stops 4-to_infinity_and_beyond process.
 
 
 ### [7. Highlander](./7-highlander)
@@ -72,5 +72,5 @@ What you should learn from this project:
 
 ---
 
-## Author
-* **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
+## Author :writing_hand:
+* **Samuel Martínez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
