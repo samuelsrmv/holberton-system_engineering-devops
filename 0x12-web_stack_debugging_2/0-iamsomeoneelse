@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #script 
-sudo -i $1 | whoami
+sudo bash $1 | whoami
