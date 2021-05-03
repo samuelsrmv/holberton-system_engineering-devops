@@ -7,11 +7,10 @@ import json
 
 def API_request(args):
     """API"""
-    todos = "https://jsonplaceholder.typicode.com/todos/ \
-            ?userId=" + str(argv[1])
+    t = "https://jsonplaceholder.typicode.com/todos/?userId="+str(argv[1])
     users = "https://jsonplaceholder.typicode.com/users/" + str(argv[1])
 
-    response_todos = requests.get(todos)
+    response_todos = requests.get(t)
     response_users = requests.get(users)
     dic_t = response_todos.json()
     dic_u = response_users.json()
