@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-ejercicio 1
-"""
+"""ejercicio 1"""
 import requests
 from sys import argv
 
