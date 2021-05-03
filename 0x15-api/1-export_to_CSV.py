@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """Ejercicio 2"""
-from sys import argv
 import csv
 import requests
+from sys import argv
+
 
 
 
