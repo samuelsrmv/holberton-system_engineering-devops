@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Ejercicio 2"""
 import requests
-from sys import argv
 import csv
+from sys import argv
 
 
 def export_csv(args):
