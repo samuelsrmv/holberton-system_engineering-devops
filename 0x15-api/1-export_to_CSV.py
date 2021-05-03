@@ -14,13 +14,12 @@ def export_csv(args):
     response_users = requests.get(users)
     dic_t = response_todos.json()
     dic_u = response_users.json()
-    name_user = dic_u.get("name")
+    name_user = dic_u.get("username")
 
     with open(str(argv[1] + ".csv"), mode='w') as f:
         my_writer = csv.writer(f, quoting=csv.QUOTE_ALL)
         for count in dic_t:
-            my_writer.writerow([str(argv[1]), str(name_user), str(count['completed']),
-                               (count['title'])])
+            my_writer.writerow([str(argv[1]), str(name_user),
+                                str(count['completed']), (count['title'])])
 if __name__ == "__main__":
     export_csv(argv)
-#writer.writerow([str(argv[1]), str(user_name), str(count['completed']), str(count['title'])]) 
