@@ -24,7 +24,7 @@ def API_request(args):
         if tasks.get('completed') is True:
             list_carlitos.append(tasks)
             count_true += 1
-    print("Employee {} done with tasks({}/{}):"
+    print("Employee {} is done with tasks({}/{}):"
           .format(name_user, count_true, count_total))
     for task in list_carlitos:
         print("\t " "{}".format(task.get('title')))
