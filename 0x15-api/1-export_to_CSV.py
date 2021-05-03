@@ -19,7 +19,8 @@ def export_csv(args):
     with open(str(argv[1] + ".csv"), mode='w') as f:
         my_writer = csv.writer(f, quoting=csv.QUOTE_ALL)
         for count in dic_t:
-            my_writer.writerow([(argv[1]), (name_user), (count['completed']),
+            my_writer.writerow([str(argv[1]), str(name_user), str(count['completed']),
                                (count['title'])])
 if __name__ == "__main__":
     export_csv(argv)
+#writer.writerow([str(argv[1]), str(user_name), str(count['completed']), str(count['title'])]) 
