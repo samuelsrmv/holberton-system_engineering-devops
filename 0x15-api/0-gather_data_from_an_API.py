@@ -5,9 +5,9 @@ from sys import argv
 import json
 
 
-if __name__ == "__main__":
+def API_request(args):
     """API"""
-    t = "https://jsonplaceholder.typicode.com/todos/?userId="+str(argv[1])
+    t = "https://jsonplaceholder.typicode.com/todos/?userId=" + str(argv[1])
     users = "https://jsonplaceholder.typicode.com/users/" + str(argv[1])
 
     response_todos = requests.get(t)
@@ -27,3 +27,6 @@ if __name__ == "__main__":
           .format(name_user, count_true, count_total))
     for task in list_carlitos:
         print("\t " "{}".format(task.get('title')))
+
+if __name__ == "__main__":
+    API_request(argv)
