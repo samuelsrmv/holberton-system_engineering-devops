@@ -21,7 +21,8 @@ def export_json_2():
             title_ = count.get('title')
             completed_ = count.get('completed')
             username_ = count_2.get('username')
-            dictionary.update(task=title_, completed=completed_, username=username_)
+            dictionary.update(task=title_, completed=completed_,
+                              username=username_)
             list_j.append(dictionary)
             x = count.get('id')
             dict_.update({x: list_j})
