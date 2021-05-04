@@ -5,8 +5,8 @@ import requests
 from sys import argv
 
 
-def requestss(args):
-    """API"""
+def export_json(args):
+    """Export to JSON"""
     t = "https://jsonplaceholder.typicode.com/todos/?userId=" + str(argv[1])
     users = "https://jsonplaceholder.typicode.com/users/" + str(argv[1])
 
