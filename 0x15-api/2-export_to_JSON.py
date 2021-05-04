@@ -31,4 +31,4 @@ def export_json(args):
 
 
 if __name__ == "__main__":
-    requestss(argv)
+    export_json(argv)
