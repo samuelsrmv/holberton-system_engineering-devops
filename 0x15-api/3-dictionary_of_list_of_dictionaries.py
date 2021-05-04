@@ -14,17 +14,17 @@ def export_json_2():
     dic_u = response_users.json()
 
     dict_ = {}
-
-    for count in dic_t:
-        list_j = []
-        dictionary = {'username': '', 'task': '', 'completed': None}
-        title_ = count.get('title')
-        completed_ = count.get('completed')
-        username_ = count.get('username')
-        dictionary.update(task=title_, completed=completed_)
-        list_j.append(dictionary)
-        x = count.get('id')
-        dict_.update({x: list_j})
+    for count_2 in dic_u:
+        for count in dic_t:
+            list_j = []
+            dictionary = {'username': '', 'task': '', 'completed': None}
+            title_ = count.get('title')
+            completed_ = count.get('completed')
+            username_ = count_2.get('username')
+            dictionary.update(task=title_, completed=completed_, username=username_)
+            list_j.append(dictionary)
+            x = count.get('id')
+            dict_.update({x: list_j})
 
     with open("todo_all_employees.json", mode='w') as f:
         json.dump(dict_, f)
