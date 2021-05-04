@@ -12,13 +12,12 @@ def export_json_2():
     response_users = requests.get(users)
     dic_t = response_todos.json()
     dic_u = response_users.json()
-
     dict_ = {}
     for count_2 in dic_u:
         username_ = count_2.get('username')
         list_j = []
         for count in dic_t:
-            if count.get('userId') == count_2.get('id'):
+            if count_2.get("id") == count.get("userId"):
                 dictionary = {'username': '', 'task': '', 'completed': None}
                 title_ = count.get('title')
                 completed_ = count.get('completed')
@@ -27,7 +26,7 @@ def export_json_2():
                                   username=username_)
                 list_j.append(dictionary)
                 x = count.get('id')
-        dict_.update({x: list_j})
+            dict_.update({x: list_j})
 
     with open("todo_all_employees.json", mode='w') as f:
         json.dump(dict_, f)
