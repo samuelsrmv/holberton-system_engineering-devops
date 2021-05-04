@@ -25,8 +25,8 @@ def export_json_2():
                 dictionary.update(task=title_, completed=completed_,
                                   username=username_)
                 list_j.append(dictionary)
-                x = count.get('id')
-            dict_.update({x: list_j})
+                x = count_2.get('id')
+        dict_.update({x: list_j})
 
     with open("todo_all_employees.json", mode='w') as f:
         json.dump(dict_, f)
