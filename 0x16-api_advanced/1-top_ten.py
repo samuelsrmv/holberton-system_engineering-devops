@@ -5,11 +5,9 @@ import requests
 
 def top_ten(subreddit):
     """Write a function that queries the Reddit API"""
-    headers = {
-        'User-agent': 'Holberton',
-    }
+
     url = 'https://www.reddit.com/r/{}/hot.json?limit=10'.format(subreddit)
-    req = requests.get(url, headers=headers)
+    req = requests.get(url)
 
     if (req.status_code != 200):
         print(None)
