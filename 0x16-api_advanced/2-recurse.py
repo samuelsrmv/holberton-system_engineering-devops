@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""task"""
+""" Task 3 """
 import json
 import requests
 from sys import argv
@@ -7,7 +7,9 @@ from sys import argv
 
 if __name__ == '__main__':
     def Requests_API(argv):
-        """Requests_API"""
+        """
+        Args
+        """
     req_all = requests.get(
         "https://jsonplaceholder.typicode.com/todos/?userId="+str(argv[1]))
     req_user = requests.get(
